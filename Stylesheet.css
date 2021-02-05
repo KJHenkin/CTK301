@@ -1,0 +1,29 @@
+/* This is my new Stylesheet */
+
+h1 {
+color: #28E5DC;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+p {
+background-color: #257DF8;
+}
+
+h3 {
+color: #28E5DC;
+}
+
+#Specialid {
+background-color: #08D7A0;
+}
