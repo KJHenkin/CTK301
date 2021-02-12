@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(Leaves.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-color: #F9A82E;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-color: #F9A82E;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-color: #F9A82E;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-color: #F9A82E;
+  font-style: italic;
+  font-weight: normal;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.imgbox {
+  border: 25px solid #180000;
+  padding: 10px; 
+  background-color: #ffffff;
+}
