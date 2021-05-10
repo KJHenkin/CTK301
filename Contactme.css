@@ -1,0 +1,80 @@
+body {
+  background-image: url("Photo2.jpg");
+  background-position: center;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  border-color: none;
+  background-size: cover;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border: none;
+}
+
+header {
+    display: block;
+    background-color: rgba(0, 250, 255, .5);
+    grid-column: span 12;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-left: 24px;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+  }
+
+  main {
+  grid-column: span 9;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 24px;
+  margin-left: 50px;
+  margin-bottom: 75px;
+  font-size: 24px;
+  }
+
+  nav ul {
+    list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 225px;
+   margin-bottom: 100px;
+  }
+
+  a:link {
+    color: #000000;
+  }
+
+  a:hover {
+    color: #0000ff;
+  }
+
+  nav li a {
+    display: block;
+    background-color: rgba(0, 250, 255, .5);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
+
+  nav li {
+    margin-bottom: 24px;
+    padding-left: 24px;
+  }
+
+  footer{
+  grid-column: span 12;
+  color: black;
+  background-color: rgba(0, 250, 255, .5);
+  text-align: center;
+  text-transform: uppercase;
+  }
